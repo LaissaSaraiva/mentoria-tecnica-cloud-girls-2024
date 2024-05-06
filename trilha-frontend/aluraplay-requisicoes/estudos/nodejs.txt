@@ -1,0 +1,21 @@
+Node ambiente de execução Js. Utilizamos o terminal.
+
+Mas afinal, o que é o Node.js?
+
+Node.js é um ambiente de execução JavaScript que permite executar aplicações desenvolvidas com a linguagem sem depender de um navegador. Com o Node.js podemos executar aplicações através do terminal do computador. Além disso, com ele é possível criar praticamente qualquer tipo de aplicações web, desde APIs até servidores para sites estáticos e dinâmicos, como faremos no próximo vídeo.
+
+
+O que é Json?
+
+Javascript Object Notatiom
+é um tipo de aqrquivo que ajuda a transferir dados de um sistema para o outro
+
+Npm  - Node Pacgage manage
+
+- Repositorio de projetos feitos em Node e open Source
+- ferramenta de linha de comando que permite instação de pacotes e bibliotecas.
+
+
+json-server --watch db.json
+
+O --watch, verifica se tem alguma alteração.
