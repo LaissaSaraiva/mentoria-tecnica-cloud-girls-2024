@@ -1,0 +1,5 @@
+Para entender melhor sobre requisições GET no consumo de API recomendo fortemente que você assista o curso [JavaScript: Consumindo e tratando dados de uma API](https://cursos.alura.com.br/course/javascript-consumindo-tratando-dados-api), que aboda de forma mais detalhada como o JavaScript interpreta trechos de códigos e como podemos torna-los assíncrono. Além de explicar sobre fetch API e sobre termos que aparecem ao trabalhar com requisições.
+
+Caso você já tenha assistido e gostaria de rever conceitos, você pode acompanhar o Elias Ribeiro em seu artigo [Começando com fetch no JavaScript](https://www.alura.com.br/artigos/comecando-com-fetch-no-javascript) e a Juliana Negreiros no Alura Mais sobre [JavaScript assíncrono e fetch](https://cursos.alura.com.br/extra/alura-mais/javascript-assincrono-e-fetch-c93).
+
+A abordagem usada para a construção de funções assíncronas foi o “async await” e você pode ler mais sobre isso no artigo [Async/await no JavaScript: o que é e quando usar a programação assíncrona?](https://www.alura.com.br/artigos/async-await-no-javascript-o-que-e-e-quando-usar) da Juliana Amoasei.
