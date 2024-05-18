@@ -7,4 +7,26 @@ async function listaVideos() {
   return conexaoConvertida;
 }
 
-export const conectaApi = { listaVideos };
+// Requisições do tipo POST são usadas para enviar dados para a API.
+
+// Diferente de requisições do tipo GET, você precisará passar um objeto das opções de configuração como um segundo argumento em requisições POST.
+
+async function criaVideo(titulo, descricao, url, imagem) {
+  const conexao = await fetch("http://localhost:3000/videos", {
+    method: "POST",
+    headers: {
+      "Content-type": "application/json",
+    },
+    body: JSON.stringify({
+      titulo: titulo,
+      descricao: `${descricao} mil visualizações`,
+      url: url,
+      imagem: imagem,
+    }),
+  });
+
+  const conexaoConvertida = await conexao.json();
+  return conexaoConvertida;
+}
+
+export const conectaApi = { listaVideos, criaVideo };
