@@ -13,7 +13,7 @@ function controiCard(titulo, descricao, url, imagem) {
   allowfullscreen></iframe>
   <div class="descricao-video">
     <img src="${imagem}" alt="logo canal alura">
-    <h3></h3>
+    <h3>${titulo}</h3>
     <p>${descricao}</p>
   </div>`;
 
