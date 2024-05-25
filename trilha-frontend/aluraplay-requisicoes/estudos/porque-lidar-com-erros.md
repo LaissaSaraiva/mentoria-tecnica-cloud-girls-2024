@@ -1,0 +1,12 @@
+### Para saber mais: porque lidar com erros?
+
+•
+Aqui na Alura valorizamos muito o termo “Dev em T”. O Dev em T é aquele que busca conhecimento além da sua área de especialização. No início de carreira, se aprofunda em um tema. Ao longo da carreira, procura navegar em temas próximos, do próprio time ou de áreas de interface para entender melhor como seus colegas atuam e ampliar seu repertório pessoal, o que ajudará na solução de problemas cada vez mais complexos.
+Tendo isso em mente, eu compreendo que a área de User Experience conversa muito bem com a da pessoa desenvolvedora front-end, como também dizem os artigos [UX Design em T: O que Front-End tem a ver com UX?](https://www.alura.com.br/artigos/ux-design-em-t-front-end-a-ver-com-ux) e [UX Design em T: o que um programador tem a ver com a UX?](https://www.alura.com.br/artigos/ux-design-em-t-o-que-um-programador-tem-a-ver-com-a-ux). É um campo de estudo que se estudarmos para ter uma base facilitará na compreensão de decisões do projeto, como no tratamento de erros que fizemos nessa aula.
+Um dos assuntos que mostram a necessidade de lidar com erros são as [heurísticas de Nielsen](https://www.alura.com.br/artigos/10-heuristicas-de-nielsen-uma-formula-pra-evitar-erros-basicos-de-usabilidade), onde contamos com as seguintes heurísticas:
+• **Ajude os usuários a reconhecerem, diagnosticarem e recuperarem-se de erros.**
+Essa heurística é perfeita para descrever o que acabamos de fazer nessa aula. Inserimos mensagens claras e próximas do conteúdo que causou o erro. Isso ajuda o usuário a encontrar e/ou entender o problema e facilita na solução deles.
+• **Prevenção de erros**
+Já essa heurística é para prevenir que não aconteçam problemas na navegação do usuário. Por exemplo: apesar de não termos desenvolvido o projeto HTML do AluraPlay durante esse treinamento, é possível notar que os campos de digitação possuem textos que indicam o formato do que deve ser inserido. Isso ajuda a evitar que dados sejam enviados errados e erros aconteçam.
+Pensando nisso, te convido novamente a customizar essas mensagens de erro, ou até criar novas abordagens no projeto para preveni-los. Sinta-se à vontade para se desafiar no código do projeto e garantir a melhor experiência para o usuário do Alura Play.
+Após, que tal compartilhar com a gente no fórum ou Discord da Alura quais foram as mudanças aplicadas? A troca e divulgação de conhecimentos pode ser uma grande ajuda no processo de aprendizagem. Te vejo por lá!

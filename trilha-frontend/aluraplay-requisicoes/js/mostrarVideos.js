@@ -3,7 +3,7 @@ import { conectaApi } from "./conectaApi.js";
 const lista = document.querySelector("[data-lista");
 console.log("🚀 ~ lista:", lista);
 
-function controiCard(titulo, descricao, url, imagem) {
+export default function controiCard(titulo, descricao, url, imagem) {
   const video = document.createElement("li");
   video.className = "videos__item";
   video.innerHTML = `
@@ -21,17 +21,21 @@ function controiCard(titulo, descricao, url, imagem) {
 }
 
 async function listaVideo() {
-  const listaApi = await conectaApi.listaVideos();
-  listaApi.forEach((element) =>
-    lista.appendChild(
-      controiCard(
-        element.titulo,
-        element.descricao,
-        element.url,
-        element.imagem
+  try {
+    const listaApi = await conectaApi.listaVideos();
+    listaApi.forEach((element) =>
+      lista.appendChild(
+        controiCard(
+          element.titulo,
+          element.descricao,
+          element.url,
+          element.imagem
+        )
       )
-    )
-  );
+    );
+  } catch {
+    lista.innerHTML = `<h2 class="mensagem__titulo">Não foi possível carregar a lista de vídeos ... </h2>`;
+  }
 }
 
 listaVideo();
